@@ -3,6 +3,7 @@ options:
   looseYAML: false
   markdown:
     breaks: false
+  html: true
 pdf: true
 lang: ja-JP
 author: yuta-ushijima
