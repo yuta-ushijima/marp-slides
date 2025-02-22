@@ -4,6 +4,8 @@ options:
   markdown:
     breaks: false
   html: true
+  engine: marp-core
 pdf: true
 lang: ja-JP
 author: yuta-ushijima
+theme: default 
