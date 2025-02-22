@@ -1,6 +1,7 @@
 ---
 title: クラウドネイティブの基礎と AWS のアーキテクチャパターン
 author: yuta-ushijima
+size: "16:9"
 marp: true
 paginate: true
 ---
