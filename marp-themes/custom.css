@@ -1,0 +1,21 @@
+/* @theme custom */
+
+@import 'uncover';
+
+section.title {
+    font-size: 36px
+}
+
+section.slide-content {
+    font-size: 24px;
+    line-height: 140%;
+    img {
+        width: 40%;
+    }
+}
+
+section.slide-content-image-left {
+    /*  画像にbg left: XX%を指定することが前提 */
+    font-size: 20px;
+    line-height: 140%;
+}

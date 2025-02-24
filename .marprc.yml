@@ -8,4 +8,7 @@ options:
 pdf: true
 lang: ja-JP
 author: yuta-ushijima
-theme: default 
+css:
+  - ./styles/custom.css
+theme: uncover
+footer: ©️ 2025 yuta ushijima

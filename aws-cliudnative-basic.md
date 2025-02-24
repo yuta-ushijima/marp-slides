@@ -1,10 +1,14 @@
 ---
 title: クラウドネイティブの基礎と AWS のアーキテクチャパターン
 author: yuta-ushijima
-size: "16:9"
 marp: true
+theme: custom
 paginate: true
 ---
+
+<!--
+class: title
+ -->
 
 # クラウドネイティブの基礎と AWS のアーキテクチャパターン
 
@@ -12,7 +16,13 @@ paginate: true
 
 ## 1. はじめに
 
+---
+
 ### 本日の目標
+
+<!--
+_class: slide-content
+ -->
 
 ![](./img/aws-cliudnative-basic/image1.svg)
 
@@ -29,6 +39,10 @@ paginate: true
 
 ### オンプレミスとクラウドの違い
 
+<!--
+_class: slide-content
+ -->
+
 ![](./img/aws-cliudnative-basic/image2.svg)
 
 - インフラ調達・運用の違い
@@ -42,7 +56,11 @@ paginate: true
 
 ### クラウドネイティブの特徴
 
-![](./img/aws-cliudnative-basic/image3.svg)
+<!--
+_class: slide-content-image-left
+ -->
+
+![bg left:50%](./img/aws-cliudnative-basic/image3.svg)
 
 - スケーラビリティ
   - 垂直スケーリング（スケールアップ/ダウン）
@@ -65,7 +83,11 @@ paginate: true
 
 ### コンピューティング
 
-![](./img/aws-cliudnative-basic/image4.svg)
+<!--
+_class: slide-content-image-left
+ -->
+
+![bg left:50%](./img/aws-cliudnative-basic/image4.svg)
 
 - Amazon EC2
   - 仮想サーバー
@@ -78,7 +100,11 @@ paginate: true
 
 ### ストレージ
 
-![](./img/aws-cliudnative-basic/image5.svg)
+<!--
+_class: slide-content-image-left
+ -->
+
+![bg left:50%](./img/aws-cliudnative-basic/image5.svg)
 
 - Amazon S3
   - オブジェクトストレージ
@@ -91,7 +117,11 @@ paginate: true
 
 ### データベース
 
-![](./img/aws-cliudnative-basic/image6.svg)
+<!--
+_class: slide-content-image-left
+ -->
+
+![bg left:50%](./img/aws-cliudnative-basic/image6.svg)
 
 - Amazon RDS
   - リレーショナルデータベース
@@ -104,7 +134,11 @@ paginate: true
 
 ### ネットワーキング
 
-![](./img/aws-cliudnative-basic/image7.svg)
+<!--
+_class: slide-content-image-left
+ -->
+
+![bg left:50%](./img/aws-cliudnative-basic/image7.svg)
 
 - Amazon VPC
   - プライベートネットワーク空間
@@ -119,9 +153,13 @@ paginate: true
 
 ---
 
-![](./img/aws-cliudnative-basic/image8.svg)
-
 ### マイクロサービスアーキテクチャ
+
+<!--
+_class: slide-content-image-left
+ -->
+
+![bg left:63%](./img/aws-cliudnative-basic/image8.svg)
 
 - 特徴
   - サービスごとの独立性
@@ -134,7 +172,11 @@ paginate: true
 
 ### サーバーレスアーキテクチャ
 
-![](./img/aws-cliudnative-basic/image9.svg)
+<!--
+_class: slide-content-image-left
+ -->
+
+![bg left:55%](./img/aws-cliudnative-basic/image9.svg)
 
 - メリット
   - インフラ管理不要
@@ -147,6 +189,10 @@ paginate: true
 ---
 
 ### 高可用性アーキテクチャ
+
+<!--
+_class: slide-content
+ -->
 
 ![](./img/aws-cliudnative-basic/image10.svg)
 
@@ -166,6 +212,10 @@ paginate: true
 
 ### AWS Architecture Center の使い方
 
+<!--
+_class: slide-content
+ -->
+
 - 基本操作
   - アイコンの配置
   - コンポーネントの接続
@@ -175,6 +225,10 @@ paginate: true
 ---
 
 ### 実践演習：Web アプリケーションの設計
+
+<!--
+_class: slide-content
+ -->
 
 1. VPC 設計
    - パブリック/プライベートサブネット
