@@ -4,6 +4,7 @@ author: yuta-ushijima
 marp: true
 theme: custom
 paginate: true
+footer: ©️ 2025 yuta ushijima
 ---
 
 <!--
