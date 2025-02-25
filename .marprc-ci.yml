@@ -7,7 +7,7 @@ options:
   engine: marp-core
 lang: ja-JP
 inputDir: ./slides
-output: ./output
+output: ./slides
 author: yuta-ushijima
 theme: ./marp-themes/custom.css
 footer: ©️ 2025 yuta ushijima
