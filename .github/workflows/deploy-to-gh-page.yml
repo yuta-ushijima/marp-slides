@@ -19,7 +19,7 @@ jobs:
           generate-pdf: true
 
       - name: Save outputs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-pages-artifact@v3
         with:
           name: output
           path: ./output
