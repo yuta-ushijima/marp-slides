@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -22,24 +22,19 @@ jobs:
 
       - name: Convert Markdown into HTML and PDF
         uses: KoharaKazuya/marp-cli-action@v4
+        with:
+          config-file: ./.marprc.yml
+          generate-html: true
+          generate-pdf: true
 
       - name: Uploade artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./
+          name: output
+          path: ./output
 
-  deploy:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
-
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
