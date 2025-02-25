@@ -25,7 +25,7 @@ class: title
 _class: slide-content
  -->
 
-![](./img/aws-cliudnative-basic/image1.svg)
+![](../img/aws-cliudnative-basic/image1.svg)
 
 - クラウドネイティブの概念を理解する
 - AWS の主要サービスの役割を把握する
@@ -44,7 +44,7 @@ _class: slide-content
 _class: slide-content
  -->
 
-![](./img/aws-cliudnative-basic/image2.svg)
+![](../img/aws-cliudnative-basic/image2.svg)
 
 - インフラ調達・運用の違い
   - オンプレミス：物理的なハードウェア管理が必要
@@ -61,7 +61,7 @@ _class: slide-content
 _class: slide-content-image-left
  -->
 
-![bg left:50%](./img/aws-cliudnative-basic/image3.svg)
+![bg left:50%](../img/aws-cliudnative-basic/image3.svg)
 
 - スケーラビリティ
   - 垂直スケーリング（スケールアップ/ダウン）
@@ -88,7 +88,7 @@ _class: slide-content-image-left
 _class: slide-content-image-left
  -->
 
-![bg left:50%](./img/aws-cliudnative-basic/image4.svg)
+![bg left:50%](../img/aws-cliudnative-basic/image4.svg)
 
 - Amazon EC2
   - 仮想サーバー
@@ -105,7 +105,7 @@ _class: slide-content-image-left
 _class: slide-content-image-left
  -->
 
-![bg left:50%](./img/aws-cliudnative-basic/image5.svg)
+![bg left:50%](../img/aws-cliudnative-basic/image5.svg)
 
 - Amazon S3
   - オブジェクトストレージ
@@ -122,7 +122,7 @@ _class: slide-content-image-left
 _class: slide-content-image-left
  -->
 
-![bg left:50%](./img/aws-cliudnative-basic/image6.svg)
+![bg left:50%](../img/aws-cliudnative-basic/image6.svg)
 
 - Amazon RDS
   - リレーショナルデータベース
@@ -139,7 +139,7 @@ _class: slide-content-image-left
 _class: slide-content-image-left
  -->
 
-![bg left:50%](./img/aws-cliudnative-basic/image7.svg)
+![bg left:50%](../img/aws-cliudnative-basic/image7.svg)
 
 - Amazon VPC
   - プライベートネットワーク空間
@@ -160,7 +160,7 @@ _class: slide-content-image-left
 _class: slide-content-image-left
  -->
 
-![bg left:63%](./img/aws-cliudnative-basic/image8.svg)
+![bg left:63%](../img/aws-cliudnative-basic/image8.svg)
 
 - 特徴
   - サービスごとの独立性
@@ -177,7 +177,7 @@ _class: slide-content-image-left
 _class: slide-content-image-left
  -->
 
-![bg left:55%](./img/aws-cliudnative-basic/image9.svg)
+![bg left:55%](../img/aws-cliudnative-basic/image9.svg)
 
 - メリット
   - インフラ管理不要
@@ -195,7 +195,7 @@ _class: slide-content-image-left
 _class: slide-content
  -->
 
-![](./img/aws-cliudnative-basic/image10.svg)
+![](../img/aws-cliudnative-basic/image10.svg)
 
 - 設計原則
   - 単一障害点の排除
