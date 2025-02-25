@@ -1,0 +1,13 @@
+allowLocalFiles: true
+options:
+  looseYAML: false
+  markdown:
+    breaks: false
+  html: true
+  engine: marp-core
+lang: ja-JP
+inputDir: ./slides
+output: ./output
+author: yuta-ushijima
+theme: ./marp-themes/custom.css
+footer: ©️ 2025 yuta ushijima
