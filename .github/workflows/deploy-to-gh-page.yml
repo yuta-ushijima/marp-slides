@@ -9,7 +9,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Convert Markdown into PDF
         uses: KoharaKazuya/marp-cli-action@v2
@@ -19,7 +19,7 @@ jobs:
           generate-pdf: true
 
       - name: Save outputs
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: output
           path: ./output
