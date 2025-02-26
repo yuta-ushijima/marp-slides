@@ -2,4 +2,4 @@
 
 ## スライドリンク
 
-- [クラウドネイティブの基礎と AWS のアーキテクチャパターン](./aws-cliudnative-basic.md)
+- [クラウドネイティブの基礎と AWS のアーキテクチャパターン](./slides/aws-cliudnative-basic.html)

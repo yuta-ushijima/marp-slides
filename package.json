@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "preview": "marp $npm_config_src --theme marp-themes/custom.css --preview",
+    "pdf": "marp $npm_config_src --theme marp-themes/custom.css --pdf"
+  },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.1.2"
   }
